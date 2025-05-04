@@ -1,0 +1,23 @@
+#pdf-resizer-panel {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #ffffff;
+    border: 1px solid #333;
+    padding: 10px;
+    z-index: 9999;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+  }
+  #pdf-resizer-panel button {
+    margin: 5px;
+    padding: 5px 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  #pdf-resizer-panel button:hover {
+    background: #0056b3;
+  }
